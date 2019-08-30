@@ -1,10 +1,10 @@
 Object Oriented Programming!
 Write a script that contains multiple classes:
-- a "Fruits" class
-- an "Apple" class that inherits from "Fruits"
-- a "Grape" class that inherits from "Fruits"
+- a "Fruit" class
+- an "Apple" class that inherits from "Fruit"
+- a "Grape" class that inherits from "Fruit"
 
-Instances of the Fruits class should have an attribute that contains information regarding whether it's ripe. There should also be a method that changes this so that a fruit can ripen.
+Instances of the Fruit class should have an attribute that contains information regarding whether it's ripe. There should also be a method that changes this so that a fruit can ripen.
 
 Instances of the Apple class have to be initialized with a color (e.g. "red" or "green").
 
