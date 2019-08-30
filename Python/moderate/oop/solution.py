@@ -1,5 +1,5 @@
 # parent class. classes that derive from this one inherit ripen() and is_ripe
-class Fruits:
+class Fruit:
 
     # when instantiating this class, __init__ is called.
     # This sets is_ripe for the newly created object to False
@@ -11,7 +11,7 @@ class Fruits:
         self.is_ripe = True
 
 
-class Apple(Fruits):
+class Apple(Fruit):
 
     # it's possible to override a function from the parent class,
     # even __init__!
@@ -22,7 +22,7 @@ class Apple(Fruits):
         self.color = color
 
 
-class Grape(Fruits):
+class Grape(Fruit):
 
     # it's possible to override a function from the parent class,
     # even __init__. Grapes now don't have a is_ripe attribute!
